@@ -6,8 +6,8 @@
    Tutorial Case
 
    Columns Style Sheet
-   Author: 
-   Date:   
+   Author: christian smith
+   Date:   11/28/23
 
    Filename:         dlr_columns.css
 
@@ -16,4 +16,10 @@
 
 
 /* Column Styles */
-
+@media only screen and (min-width: 641px){
+   article{
+      -moz-column-count: 2;
+      -webkit-column-count: 2;
+      column-count: 2;
+   }
+}
